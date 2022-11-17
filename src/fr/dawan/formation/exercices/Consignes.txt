@@ -1,0 +1,38 @@
+1. Calculatrice.
+
+-Demander à l'user de rentrer un calcul
+    -> nombre_A    opérateur    nombre_B
+    -> Retourner le résultat du calcul en fonction de l'opérateur. 
+
+-------------------------------------------------------------------------------------------------------------
+
+2. Guess the Number.
+
+-Initialiser un nombre à deviner ( entre 0 et 100)
+-Dans la console, demander à l'user de deviner le nombre
+    -> User rentre un entier
+    -> Récupérer l'entier entré, le comparer avec le nombre à deviner, et retourner une réponse à l'user.
+    -> Trop haut / trop bas / gagné
+- Tant que user n'a pas gagné, on rejoue, jusq'à ce qu'il gagne.
+- On ajoute les indices à user.
+    -> on lui indique s'il se rapproche ou s'éloigne.
+-Quand user a terminé, on lui propose de recommencer
+
+-------------------------------------------------------------------------------------------------------------
+
+3. Tableau simples : 
+
+- Soit un tableau de notes
+- Calculer la moyenne des notes
+- Attention, pour calculer la moyenne, les notes doivent être compris entre 0 et 20.
+    -> Ne calculer la moyenne que des notes correctes. 
+- Trouver la mediane.
+
+-------------------------------------------------------------------------------------------------------------
+
+4. Tableau à deux dimensions
+
+- Une variable classe, qui contient, pour chacun des élèves la liste des notes. 
+    -> Afficher la moyenne de chaque élève
+    -> Afficher la moyenne la plus haute, la moyenne la plus basse.
+    -> Afficher la moyenne de la classe complète
